@@ -16,7 +16,7 @@
     B. `student['Grad Year']`\
     C. `student.greeting()`\
     D. `student['Favorite Teacher'].name`\
-    E. `student.courseLoad[0]`\
+    E. `student.courseLoad[0]`
 14. A. `32`. Because `'3'` is a string, `2` is converted to a string, and string concatentation is performed.\
     B. `1`. The `-` sign between two variables automatically converts both values to numbers.\
     C. `3`. Since `3` is a number, null is converted to `0`. The operation `3 + 0` returns `3`.\
@@ -24,13 +24,13 @@
     E. `4`. `True` is converted to the number `1`, and `1 + 3` is performed.\
     F. `0`. `False` is coverted to the number `0`, and `null` is converted to the number `0`. The result is `0 + 0`.\
     G. `3undefined`. Since `"3"` is a string, `undefined` is converted to the strnig `"undefined"`, and a string cnocatentation is performed.\
-    H. `NaN`. Since `-` is present, an automatic numeric conversion is performed. However, `undefined` cannot be converted to a number, so `NaN` is returned.\
+    H. `NaN`. Since `-` is present, an automatic numeric conversion is performed. However, `undefined` cannot be converted to a number, so `NaN` is returned.
 15. A. `true`, since the string `'2'` becomes a number `2`.\
     B. `false`. A lexigraphical comparison is made. Since `'2' > '1'`, false is returned.\
     C. `true`. The string `'2'` becomes the number `2`.\
     D. `false`. The operator `===` does not convert types. Since the types are different, `false` is returned.\
     E. `false`. `true` is converted to the number `1`, which is not equal to `2`.\
-    F. `true`. The `Boolean()` conversion converts `2` to `true`.\
+    F. `true`. The `Boolean()` conversion converts `2` to `true`.
 16. `===` checks strict equality, and performs no conversion. `==` checks loose equality, and performs type coercion.
 17. `How are you?` is printed. In the first condition, `true` is converted to the number `1`. In the second condition, `2` is converted to the boolean `true`.
 18.
