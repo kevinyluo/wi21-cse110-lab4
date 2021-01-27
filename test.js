@@ -1,18 +1,8 @@
-function discountPrices (prices, discount) {
-    var discounted = []
-    var finalPrice = 0
-
-    for(var i = 0; i < prices.length; i++){
-        var discountedPrice = prices[i] * (1 - discount)
-        finalPrice = Math.round(discountedPrice * 100) / 100
-        discounted.push(finalPrice)
-    }
-
-    console.log(i);
-    console.log(discountedPrice);
-    console.log(finalPrice)
-
-    return discounted;
+function printNums() {
+    console.log(1);
+    setTimeout(function() {console.log(2)}, 1000)
+    setTimeout(function() {console.log(3)}, 0)
+    console.log(4)
 }
 
-discountPrices([100, 200, 300, 400, 5000.52234], 0.7)
+printNums()

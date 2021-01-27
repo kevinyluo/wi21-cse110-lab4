@@ -33,5 +33,7 @@
     F. `true`. The `Boolean()` conversion converts `2` to `true`.
 16. `===` checks strict equality, and performs no conversion. `==` checks loose equality, and performs type coercion.
 17. `How are you?` is printed. In the first condition, `true` is converted to the number `1`. In the second condition, `2` is converted to the boolean `true`.
+18.
 19. `[6, 8, 10]`. For each value in the array, a callback to `doSomething(array[i], function (x) {return x*2})` is made. This increments `array[i]` by 2, and then makes another callback to the function `function (x) {return x*2}`. In the end, the value of each element in the array is first incremented by 2, then multiplied by 2.
+20.
 21. `1432`
